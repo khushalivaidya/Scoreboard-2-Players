@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Cursed Timer ULiL';
+    src: url(CursedTimerUlil-Aznm.ttf);
+  }
+
+body {
+    margin: 70px auto;
+    text-align: center;
+    background-color: #1B244A;
+}
+
+h3{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE;
+
+}
+.box1{
+    margin-left: 423px;
+}
+
+.box2{
+    margin-left: 100px;
+}
+.container {
+    display: flex;
+}
+.score{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    color: #F94F6D;
+    background: #080001;
+    border-radius: 5px;
+    border-radius: 5px;
+    height: 120px;
+    width: 155px;
+}
+
+.add-btn ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+}
+
+.add-btn li{
+    margin-left: 5.5px;
+    margin-right: 5.5px;
+}
+
+.score-btn{
+    height: 45px;
+    width: 45px;
+    font-family: 'Cursed Timer ULiL';
+    background-color: #1B244A;
+    color: #9AABD8;
+    left: 447px;
+    top: 271px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+#new-game{
+    width: 100px;
+    left: auto;
+    top: auto;
+}
+
+.score-btn:hover{
+    background-color:#EEEEEE;
+    color: #101634;
+}
+
+.winner{
+    border: 5px solid gold;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
