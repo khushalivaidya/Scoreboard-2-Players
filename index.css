@@ -19,15 +19,9 @@ h3{
     color: #EEEEEE;
 
 }
-.box1{
-    margin-left: 423px;
-}
-
-.box2{
-    margin-left: 100px;
-}
 .container {
     display: flex;
+    justify-content: space-evenly;
 }
 .score{
     margin-top: 10px;
